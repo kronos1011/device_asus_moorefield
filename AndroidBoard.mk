@@ -16,5 +16,6 @@
 
 LOCAL_PATH := $(my-dir)
 
+include $(CLEAR_VARS)
+ 
 -include vendor/intel/prebuilts/$(TARGET_PRODUCT)/prebuilts.mk
-
