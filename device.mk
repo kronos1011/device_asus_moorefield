@@ -255,8 +255,8 @@ PRODUCT_COPY_FILES += \
 
 # NFC
 PRODUCT_COPY_FILES += \
-    device/asus/moorefield/fhd/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    device/asus/moorefield/fhd/nfc/libnfc-brcm-20795a20.conf:system/etc/libnfc-brcm-20795a20.conf
+    device/asus/moorefield/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    device/asus/moorefield/nfc/libnfc-brcm-20795a20.conf:system/etc/libnfc-brcm-20795a20.conf
 
 # NFC packages
 PRODUCT_PACKAGES += \
